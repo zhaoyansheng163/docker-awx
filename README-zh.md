@@ -74,7 +74,7 @@ echo aaa
 echo bbb  
 # .env文件的SITE_NAME需要修改成公网IP或者域名才能被外网访问  
 # 默认启动的是ERPNext12，如果您想运行ERPNext13,只需将ERPNEXT_VERSION、FRAPPE_VERSION修改成v13  
-sudo docker-compose -f docker-compose --env-file .env up -d
+sudo docker-compose -f docker-compose.yml --env-file .env up -d
 ```
 
 ### 常见问题
