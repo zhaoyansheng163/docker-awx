@@ -70,7 +70,7 @@ echo aaa
 echo bbb  
 # .env file's [SITE_NAME] should  be changed to public IP or domain name to be accessed by Internet  
 # The default startup is erpnext12. If you want to run erpnext13, you only need to change ERPNEXT_VERSION/FRAPPE_VERSIO to V13  
-docker-compose -f docker-compose  --env-file  .env up -d
+docker-compose -f docker-compose.yml  --env-file  .env up -d
 ```
 
 ### FAQ
